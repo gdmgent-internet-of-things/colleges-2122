@@ -89,3 +89,24 @@ for k in x:
 x[1] = 'ten'
 for k, v in x.items():
     print(f'key is {k} with value {v}')
+
+x = (1, 'two', 3.0, [4, 'four'], 5)
+y = (1, 'two', 3.0, [4, 'four'], 5)
+print(f'id of x is {id(x)}')
+print(f'id of y is {id(y)}')
+if x is y:
+    print('x equals y')
+else:
+    print('Nope')
+    
+# Check if variable is of a certain type
+if isinstance(x, tuple):
+    print('Yep')
+else:
+    print('Nope')
+
+x = '5'
+y = '5'
+print(f'id of x is {id(x)}')
+print(f'id of y is {id(y)}')
+
