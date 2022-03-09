@@ -42,3 +42,13 @@ is not
 2 + 4 * 5
 (2 + 4) * 5
 '''
+
+# Bitwise operators
+x = 0x0a
+y = 0x0f
+z = x & y
+print(f'the hex value of x is {x:02x}, y is {y:02x} and z is {z:02x}')
+print(f'the hex value of x is {x:08b}, y is {y:08b} and z is {z:08b}')
+z = x ^ y
+print(f'the hex value of x is {x:02x}, y is {y:02x} and z is {z:02x}')
+print(f'the hex value of x is {x:08b}, y is {y:08b} and z is {z:08b}')
